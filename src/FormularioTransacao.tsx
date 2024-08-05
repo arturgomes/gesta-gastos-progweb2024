@@ -3,7 +3,7 @@ import { Transacao } from "./types"
 
 
 interface FormularioTransacaoProps {
-  transacaoAtual: Transacao;
+  transacaoAtual: Transacao | null;
   salvarTransacao: (transacao: Transacao) => void;
   cancelarEdicao: () => void;
 }
