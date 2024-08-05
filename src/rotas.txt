@@ -1,0 +1,7 @@
+## fazer um mapeamento das rotas de uma pagina
+
+rota: /todos 
+renderizar o componente <Todos/>
+
+rota: /posts 
+renderizar o componente <Posts/>
